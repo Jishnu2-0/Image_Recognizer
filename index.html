@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <title>Realtime Image Identification</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Fredoka:wght@600&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body background="images.jpg">
+
+    <div class="darkblue">
+        <h1>
+            <center>💻</center>
+        </h1>
+    </div>
+    <center>
+        <font face="Fredoka">
+            <h3 class="btn btn-info heading"> Realtime Image
+                Identification </h3>
+        </font>
+    </center>
+    <div class="darkblue2">
+        <h1>
+            <center>💻</center>
+        </h1>
+    </div>
+    <br><br><br><br><br><br><br>
+    <center>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 heading_div">
+            <h3>
+                <font face="Sansita Swashed">Model is trained on
+            </h3>
+            <div class="btn btn-warning heading_div2">
+                Tablet</font> |<font face="Sansita Swashed"> Bottle</font> | <font face="Sansita Swashed">Pen</font>
+                |<font face="Sansita Swashed"> Sharpener</font>
+            </div>
+        </div>
+    </center>
+    <br> </h3>
+    <div class="result">
+        <center>
+            <font face="Syne Mono">
+                <p class="btn btn-warning result_para_tag">Object :
+                    <span id="result_object_name"></span>
+                </p>
+                <br><br>
+                <p class="btn btn-warning result_para_tag">Accuracy :
+                    <span id="result_object_accuracy"></span>
+                </p>
+                </h3>
+            </font>
+    </div>
+    </center>
+
+    <div class="copy_right_footer">
+    <br>    Devloped by -<font face="Dancing Script"><h2> Jishnu Maiti</h2></font>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
